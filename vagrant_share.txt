@@ -1,0 +1,7 @@
+#Plugin install (your specific folder)
+vagrant plugin install vagrant-share
+
+#Sharing the environment 
+vagrant share 
+
+
