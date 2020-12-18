@@ -41,7 +41,7 @@ Shell script to set up Apache
 ~bootstrap.sh~
 #!/usr/bin/env bash
 yum update
-yum install -y apache2
+yum install -y httpd
 if ! [ -L /var/www ]; then
   rm -rf /var/www
   ln -fs /vagrant /var/www
